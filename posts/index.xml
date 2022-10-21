@@ -9,10 +9,7 @@
     <pubDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</pubDate>
     <author>Divyansh</author>
     <guid>http://example.org/posts/leetcode/finding-piviot-index/</guid>
-    <description><![CDATA[Finding piviot index Python  leetcode data structure algorithems
-  Developer : Divyansh Patel
- Question Given an array of integers nums, calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index&rsquo;s right.
-If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left.]]></description>
+    <description><![CDATA[This post will explain you potential solution for leetcode problem.]]></description>
 </item>
 <item>
     <title>Leetcode - Running sum of 1D array</title>
@@ -20,11 +17,7 @@ If the index is on the left edge of the array, then the left sum is 0 because th
     <pubDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</pubDate>
     <author>Divyansh</author>
     <guid>http://example.org/posts/leetcode/running-sum-of-1d-array/</guid>
-    <description><![CDATA[Running sum of 1D array Python  leetcode data structure algorithems
-  Developer : Divyansh Patel
- Question QUESTION Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
-Solution Method 1 Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
-class Solution: def runningSum(self, nums: List[int]) -&gt; List[int]: final_list = [] running_sum = 0 for i in nums: if len(final_list)==0 : final_list.]]></description>
+    <description><![CDATA[This post will explain you potential solution for leetcode problem.]]></description>
 </item>
 </channel>
 </rss>
