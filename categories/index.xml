@@ -4,11 +4,11 @@
         <link>http://example.org/categories/</link>
         <description>Categories - Category - My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>documentation</title>
-    <link>http://example.org/categories/documentation/</link>
+    <title>Leetcode</title>
+    <link>http://example.org/categories/leetcode/</link>
     <pubDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/categories/documentation/</guid>
+    <guid>http://example.org/categories/leetcode/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
