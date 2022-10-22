@@ -6,7 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 22 Oct 2022 17:52:53 &#43;0000</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Create .exe from .py file</title>
+    <title>Python - Create .exe from .py file</title>
     <link>http://example.org/posts/python/python-to-exe-file/</link>
     <pubDate>Sat, 22 Oct 2022 17:52:53 &#43;0000</pubDate>
     <author>Divyansh</author>
