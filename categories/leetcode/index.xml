@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Leetcode - Category - My New Hugo Site</title>
+        <title>Leetcode - Category - Divyansh Patels Notbook</title>
         <link>http://example.org/categories/leetcode/</link>
-        <description>Leetcode - Category - My New Hugo Site</description>
+        <description>Leetcode - Category - Divyansh Patels Notbook</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/leetcode/" rel="self" type="application/rss+xml" /><item>
     <title>Leetcode - Finding piviot index</title>
     <link>http://example.org/posts/leetcode/finding-piviot-index/</link>
