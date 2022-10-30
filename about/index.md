@@ -13,3 +13,4 @@ Since then, I’ve worked on countless freelance projects and have been involved
 
 I’m familiar with a variety of programming languages and technologies, including Python, C, C++, SQL, AWS, Serverless Framework but I’m always adding new skills to my repertoire. I’m also eager to meet other software engineers in the area, so feel free to connect!
 
+
