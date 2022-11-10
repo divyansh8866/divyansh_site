@@ -3,8 +3,7 @@
         <title>leetcode - Tag - Divyansh Patels Notbook</title>
         <link>http://example.org/tags/leetcode/</link>
         <description>leetcode - Tag - Divyansh Patels Notbook</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>pkcp123@gmail.com (Divyansh Patel)</managingEditor>
-            <webMaster>pkcp123@gmail.com (Divyansh Patel)</webMaster><lastBuildDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/" rel="self" type="application/rss+xml" /><item>
     <title>Leetcode - Finding piviot index</title>
     <link>http://example.org/finding-piviot-index/</link>
     <pubDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</pubDate>

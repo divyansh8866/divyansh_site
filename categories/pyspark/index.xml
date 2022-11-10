@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>PySpark - Category - Divyansh Patels Notbook</title>
+        <link>http://example.org/categories/pyspark/</link>
+        <description>PySpark - Category - Divyansh Patels Notbook</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Oct 2022 18:05:58 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/pyspark/" rel="self" type="application/rss+xml" /><item>
+    <title>PySpark - Introduction</title>
+    <link>http://example.org/pyspark-intro/</link>
+    <pubDate>Sun, 30 Oct 2022 18:05:58 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/pyspark-intro/</guid>
+    <description><![CDATA[This post will give you an introduction to PySpark]]></description>
+</item>
+</channel>
+</rss>

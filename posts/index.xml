@@ -3,8 +3,23 @@
         <title>All Posts - Divyansh Patels Notbook</title>
         <link>http://example.org/posts/</link>
         <description>All Posts | Divyansh Patels Notbook</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>pkcp123@gmail.com (Divyansh Patel)</managingEditor>
-            <webMaster>pkcp123@gmail.com (Divyansh Patel)</webMaster><lastBuildDate>Sat, 22 Oct 2022 17:52:53 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Oct 2022 18:06:24 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Basics</title>
+    <link>http://example.org/pyspark-accessing-data-sources/</link>
+    <pubDate>Sun, 30 Oct 2022 18:06:24 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/pyspark-accessing-data-sources/</guid>
+    <description><![CDATA[Change Me]]></description>
+</item>
+<item>
+    <title>PySpark - Introduction</title>
+    <link>http://example.org/pyspark-intro/</link>
+    <pubDate>Sun, 30 Oct 2022 18:05:58 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/pyspark-intro/</guid>
+    <description><![CDATA[This post will give you an introduction to PySpark]]></description>
+</item>
+<item>
     <title>Python - Create .exe from .py file</title>
     <link>http://example.org/python-to-exe-file/</link>
     <pubDate>Sat, 22 Oct 2022 17:52:53 &#43;0000</pubDate>
