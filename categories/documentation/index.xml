@@ -4,20 +4,12 @@
         <link>http://example.org/categories/documentation/</link>
         <description>documentation - Category - Divyansh Patels Notbook</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Nov 2022 23:29:31 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/documentation/" rel="self" type="application/rss+xml" /><item>
-    <title>AWS - Glue</title>
+    <title>AWS - Glue (Introduction)</title>
     <link>http://example.org/aws-glue/</link>
     <pubDate>Wed, 16 Nov 2022 23:29:31 &#43;0000</pubDate>
     <author>Divyansh</author>
     <guid>http://example.org/aws-glue/</guid>
     <description><![CDATA[Overview and introduction to AWS - Glue]]></description>
-</item>
-<item>
-    <title>Theme Documentation - Basics</title>
-    <link>http://example.org/pyspark-accessing-data-sources/</link>
-    <pubDate>Sun, 30 Oct 2022 18:06:24 &#43;0000</pubDate>
-    <author>Divyansh</author>
-    <guid>http://example.org/pyspark-accessing-data-sources/</guid>
-    <description><![CDATA[Change Me]]></description>
 </item>
 </channel>
 </rss>

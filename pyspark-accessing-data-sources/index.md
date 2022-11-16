@@ -1,6 +1,0 @@
-# Theme Documentation - Basics
-
-
-<!--more-->
-
-
