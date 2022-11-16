@@ -19,21 +19,5 @@
     <guid>http://example.org/python-to-exe-file/</guid>
     <description><![CDATA[This post will show you on how to create stand alone .exe file from .py file]]></description>
 </item>
-<item>
-    <title>Leetcode - Finding piviot index</title>
-    <link>http://example.org/finding-piviot-index/</link>
-    <pubDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</pubDate>
-    <author>Divyansh</author>
-    <guid>http://example.org/finding-piviot-index/</guid>
-    <description><![CDATA[This post will explain you potential solution for leetcode problem.]]></description>
-</item>
-<item>
-    <title>Leetcode - Running sum of 1D array</title>
-    <link>http://example.org/running-sum-of-1d-array/</link>
-    <pubDate>Fri, 21 Oct 2022 16:33:23 &#43;0000</pubDate>
-    <author>Divyansh</author>
-    <guid>http://example.org/running-sum-of-1d-array/</guid>
-    <description><![CDATA[This post will explain you potential solution for leetcode problem.]]></description>
-</item>
 </channel>
 </rss>

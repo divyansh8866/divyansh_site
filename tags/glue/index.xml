@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Glue - Tag - Divyansh Patels Notbook</title>
+        <link>http://example.org/tags/glue/</link>
+        <description>Glue - Tag - Divyansh Patels Notbook</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Nov 2022 23:29:31 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/glue/" rel="self" type="application/rss+xml" /><item>
+    <title>AWS - Glue</title>
+    <link>http://example.org/aws-glue/</link>
+    <pubDate>Wed, 16 Nov 2022 23:29:31 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/aws-glue/</guid>
+    <description><![CDATA[Overview and introduction to AWS - Glue]]></description>
+</item>
+</channel>
+</rss>
