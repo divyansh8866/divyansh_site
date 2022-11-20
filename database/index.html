@@ -34,7 +34,7 @@
                             "url": "http:\/\/example.org\/database\/featured-image.jpg",
                             "width":  1600 ,
                             "height":  900 
-                        }],"genre": "posts","keywords": "AWS, Glue","wordcount":  60 ,
+                        }],"genre": "posts","keywords": "AWS, Glue","wordcount":  183 ,
         "url": "http:\/\/example.org\/database\/","datePublished": "2022-11-19T21:56:23+00:00","dateModified": "2022-11-19T21:56:23+00:00","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "http:\/\/example.org\/images\/avatar.png"},"author": {
@@ -108,7 +108,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">AWS - Glue (Database)</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://divyanshpatel.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Divyansh</a></span>&nbsp;<span class="post-category">included in <a href="/categories/documentation/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>documentation</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-11-19">2022-11-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;60 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-11-19">2022-11-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;183 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -122,7 +122,16 @@
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#database-configuration-web-console">Database Configuration (Web Console)</a></li>
+    <li><a href="#database-configuration-serverless">Database Configuration (serverless)</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
             </div><div class="content" id="content"><p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -134,7 +143,95 @@
 <p>In this section we will be looking at Database in AWS Glue service.<br>
 <strong>Data catalog:</strong> Metadata and the structure of the data is stored in Data Catalog.<br>
 <strong>Database:</strong> It is used to create or access the database for the sources and targets.<br>
-<strong>Table:</strong> Create one or more tables in the database that can be used by the source and target.</p></div><div class="post-footer" id="post-footer">
+<strong>Table:</strong> Create one or more tables in the database that can be used by the source and target.</p>
+<hr>
+<h1 id="database">Database</h1>
+<h2 id="database-configuration-web-console">Database Configuration (Web Console)</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/database/config.png"
+        data-srcset="/database/config.png, /database/config.png 1.5x, /database/config.png 2x"
+        data-sizes="auto"
+        alt="/database/config.png"
+        title="Web Console" width="2192" height="1014" /></p>
+<p><code>Name</code> <strong>Required</strong> : Name of the database.<br>
+<code>Location</code> <strong>Optional</strong>:  Uniform resource identifier (uri) of data catlog which can be used by client.<br>
+<code>Description</code> <strong>Optional</strong>: Description of the database.</p>
+<hr>
+<h2 id="database-configuration-serverless">Database Configuration (serverless)</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<p><strong>Note:</strong> Please run this command to set AWS credentials in Serverless framework.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">serverless config credentials --provider aws --key &lt;KEY&gt; --secret &lt;SECRET_KEY&gt; -o
+</code></pre></td></tr></table>
+</div>
+</div><p>Following should be added in to <code>.env</code> file in same directory as <code>serverless.yml</code> file.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">SERVICE_NAME=glue-database
+</code></pre></td></tr></table>
+</div>
+</div><p>Serverless Code</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yml" data-lang="yml"><span class="w">
+</span><span class="w"></span><span class="k">service</span><span class="p">:</span><span class="w"> </span>${env<span class="p">:</span>SERVICE_NAME}<span class="w">
+</span><span class="w"></span><span class="k">frameworkVersion</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;3&#39;</span><span class="w">
+</span><span class="w"></span><span class="k">useDotenv</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">provider</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">  </span><span class="k">name</span><span class="p">:</span><span class="w"> </span>aws<span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">resources</span><span class="p">:</span><span class="w"> </span><span class="c"># CloudFormation template syntax</span><span class="w">
+</span><span class="w">  </span><span class="k">Resources</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span><span class="k">GlueDatabase</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">      </span><span class="k">Type</span><span class="p">:</span><span class="w"> </span>AWS<span class="p">:</span><span class="p">:</span>Glue<span class="p">:</span><span class="p">:</span>Database<span class="w">
+</span><span class="w">      </span><span class="k">Properties</span><span class="p">:</span><span class="w"> </span><span class="w">
+</span><span class="w">        </span><span class="k">CatalogId</span><span class="p">:</span><span class="w"> </span>${aws<span class="p">:</span>accountId}<span class="w">   </span><span class="c"># serverless inbuild ENV variable</span><span class="w">
+</span><span class="w">        </span><span class="k">DatabaseInput</span><span class="p">:</span><span class="w"> </span><span class="w">
+</span><span class="w">          </span><span class="k">Description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;description here&#34;</span><span class="w">
+</span><span class="w">          </span><span class="c"># LocationUri: String   #Optional</span><span class="w">
+</span><span class="w">          </span><span class="k">Name</span><span class="p">:</span><span class="w"> </span>test_databavse<span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Command to run serverless file (please run from same directory as serverless.yml)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"> serverless deploy
+</code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
