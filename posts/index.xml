@@ -3,12 +3,20 @@
         <title>All Posts - Divyansh Patels Notbook</title>
         <link>http://example.org/posts/</link>
         <description>All Posts | Divyansh Patels Notbook</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Nov 2022 23:29:31 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 19 Nov 2022 21:56:23 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>AWS - Glue (Database)</title>
+    <link>http://example.org/database/</link>
+    <pubDate>Sat, 19 Nov 2022 21:56:23 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/database/</guid>
+    <description><![CDATA[Overview and introduction to AWS - Glue]]></description>
+</item>
+<item>
     <title>AWS - Glue (Introduction)</title>
-    <link>http://example.org/aws-glue/</link>
+    <link>http://example.org/introduction/</link>
     <pubDate>Wed, 16 Nov 2022 23:29:31 &#43;0000</pubDate>
     <author>Divyansh</author>
-    <guid>http://example.org/aws-glue/</guid>
+    <guid>http://example.org/introduction/</guid>
     <description><![CDATA[Overview and introduction to AWS - Glue]]></description>
 </item>
 <item>
