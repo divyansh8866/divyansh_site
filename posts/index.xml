@@ -3,7 +3,23 @@
         <title>All Posts - Divyansh Patels Notbook</title>
         <link>http://example.org/posts/</link>
         <description>All Posts | Divyansh Patels Notbook</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2023 02:12:42 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2023 02:24:31 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>JDBC Connector</title>
+    <link>http://example.org/jdbc-connector/</link>
+    <pubDate>Sun, 01 Jan 2023 02:24:31 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/jdbc-connector/</guid>
+    <description><![CDATA[JDBC Connector]]></description>
+</item>
+<item>
+    <title>Connect to database - JDBC</title>
+    <link>http://example.org/connect-to-database-jdbc/</link>
+    <pubDate>Sun, 01 Jan 2023 02:22:30 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/connect-to-database-jdbc/</guid>
+    <description><![CDATA[Connect to database - JDBC]]></description>
+</item>
+<item>
     <title>Python logging decorator</title>
     <link>http://example.org/python-logging-decorator/</link>
     <pubDate>Sun, 01 Jan 2023 02:12:42 &#43;0000</pubDate>

@@ -2,6 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://example.org/jdbc-connector/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/connect-to-database-jdbc/</loc><lastmod>2023-01-01T02:22:30&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/python-logging-decorator/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/set-logging-level-with-env/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/getting-started-with-serverless/</loc><lastmod>2023-01-01T00:26:20&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -9,12 +11,14 @@
             <loc>http://example.org/introduction/</loc><lastmod>2022-11-16T23:29:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/python-to-exe-file/</loc><lastmod>2022-10-22T17:52:53&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/python-error-handling-decorator/</loc><lastmod>2022-10-22T17:52:53&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/pyspark/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/pyspark/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/python/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2023-01-01T02:24:31&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/categories/python/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/python/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2023-01-01T02:12:42&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/aws/</loc><lastmod>2023-01-01T00:26:20&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/serverless/</loc><lastmod>2023-01-01T00:26:20&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/categories/serverless/</loc><lastmod>2023-01-01T00:26:20&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>

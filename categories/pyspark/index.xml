@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>pyspark - Category - Divyansh Patels Notbook</title>
+        <link>http://example.org/categories/pyspark/</link>
+        <description>pyspark - Category - Divyansh Patels Notbook</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2023 02:24:31 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/pyspark/" rel="self" type="application/rss+xml" /><item>
+    <title>JDBC Connector</title>
+    <link>http://example.org/jdbc-connector/</link>
+    <pubDate>Sun, 01 Jan 2023 02:24:31 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/jdbc-connector/</guid>
+    <description><![CDATA[JDBC Connector]]></description>
+</item>
+<item>
+    <title>Connect to database - JDBC</title>
+    <link>http://example.org/connect-to-database-jdbc/</link>
+    <pubDate>Sun, 01 Jan 2023 02:22:30 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/connect-to-database-jdbc/</guid>
+    <description><![CDATA[Connect to database - JDBC]]></description>
+</item>
+</channel>
+</rss>
