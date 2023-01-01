@@ -3,13 +3,37 @@
         <title>python - Tag - Divyansh Patels Notbook</title>
         <link>http://example.org/tags/python/</link>
         <description>python - Tag - Divyansh Patels Notbook</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 22 Oct 2022 17:52:53 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/python/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2023 02:12:42 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>Python logging decorator</title>
+    <link>http://example.org/python-logging-decorator/</link>
+    <pubDate>Sun, 01 Jan 2023 02:12:42 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/python-logging-decorator/</guid>
+    <description><![CDATA[Python logging decorator]]></description>
+</item>
+<item>
+    <title>Set logging level with env</title>
+    <link>http://example.org/set-logging-level-with-env/</link>
+    <pubDate>Sun, 01 Jan 2023 02:12:42 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/set-logging-level-with-env/</guid>
+    <description><![CDATA[Set logging level with env]]></description>
+</item>
+<item>
     <title>Python - Create .exe from .py file</title>
     <link>http://example.org/python-to-exe-file/</link>
     <pubDate>Sat, 22 Oct 2022 17:52:53 &#43;0000</pubDate>
     <author>Divyansh</author>
     <guid>http://example.org/python-to-exe-file/</guid>
     <description><![CDATA[This post will show you on how to create stand alone .exe file from .py file]]></description>
+</item>
+<item>
+    <title>Python error handling decorator</title>
+    <link>http://example.org/python-error-handling-decorator/</link>
+    <pubDate>Sat, 22 Oct 2022 17:52:53 &#43;0000</pubDate>
+    <author>Divyansh</author>
+    <guid>http://example.org/python-error-handling-decorator/</guid>
+    <description><![CDATA[Python error handling decorator]]></description>
 </item>
 </channel>
 </rss>
